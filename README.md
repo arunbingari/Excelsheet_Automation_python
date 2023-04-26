@@ -1,6 +1,6 @@
-## Excel Sheet Automation using Openpyxl (Python)
+# Excel Sheet Automation using Openpyxl (Python)
 
-# This is a Python automation script that works with excel sheets using the Openpyxl module. The script performs the following tasks:
+## This is a Python automation script that works with excel sheets using the Openpyxl module. The script performs the following tasks:
 
 1. Lists each company with the respective number of products in the inventory.
 2. Calculates the total inventory value per supplier.
@@ -16,13 +16,17 @@ This script requires the following:
 ## Usage
 
 1. Install the Openpyxl module by running the following command:
-    pip install openpyxl
+
+    ``` pip install openpyxl ```
+    
 2. Save the script to your preferred directory.
 
 3. Update the file path of the excel sheet on line 3 to match the location of your excel sheet.
 
 4. Run the script by executing the following command in the terminal:
-    python script_name.py
+
+    ``` python script_name.py ```
+    
 
 5. The output will be displayed in the terminal and saved in a new excel sheet with the name "inventory_with_total_value.xlsx".
 
